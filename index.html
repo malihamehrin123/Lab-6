@@ -49,6 +49,52 @@
             </div>
         </nav>
     </header>
+    <main>
+        <div class="container mt-3">
+
+        <div id="heroCarousel" class="carousel carousel-overlay slide">
+
+            <div class="carousel-inner rounded-5">
+
+                <div class="carousel-item active">
+                    <img src="images/Paris.jpg" class="d-block w-100 object-fit-cover" height="350" alt="Eiffel Tower in Paris">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/Cairo.jpg" class="d-block w-100 object-fit-cover" height="350" alt="Pyramids of Giza at Sunset">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/Seoul.jpg" class="d-block w-100 object-fit-cover" height="350" alt="Seoul city skyline">
+                </div>
+
+            </div>
+
+            <div class="carousel-overlay-controls">
+
+                <div>
+                    <button class="btn-icon btn-sm btn-subtle theme-secondary" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                        <span class="carousel-icon-prev" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="btn-icon btn-sm btn-subtle theme-secondary" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                        <span class="carousel-icon-next" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Paris slide"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Cairo slide"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Seoul slide"></button>
+                </div>
+            </div>
+        
+        </div>
+        </div>
+        
+    </main>
     <script type="module" src="js/bootstrap.bundle.min.js"></script>
     
 </body>

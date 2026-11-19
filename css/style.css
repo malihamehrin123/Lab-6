@@ -13,7 +13,7 @@
     --bs-secondary-bg: #5B5721;
 }
 
-.bth-solid.theme-primary {
+.btn-solid.theme-primary {
     --bs-btn-bg: #284952;
     --bs-btn-border-color: #284952;
     --bs-btn-color: #F0EDE5;

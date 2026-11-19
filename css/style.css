@@ -18,3 +18,8 @@
     --bs-btn-border-color: #284952;
     --bs-btn-color: #F0EDE5;
 }
+
+.accordion {
+    --bs-accordion-active-bg: #F0EDE5;
+    --bs-accordion-active-color: #252321;
+}

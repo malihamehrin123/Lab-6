@@ -1,0 +1,20 @@
+:root {
+    --bs-bg-body: #F0EDE5;
+    --bs-bg-1: #E2D6C5;
+    --bs-fg-body: #252321;
+    --bs-fg-2: #252321;
+    --bs-heading-color: #8B370F;
+
+    --bs-primary-base: #284952;
+    --bs-primary-bg: #284952;
+    --bs-primary-fg: #284952;
+    --bs-primary-contrast: #F0EDE5;
+
+    --bs-secondary-bg: #5B5721;
+}
+
+.bth-solid.theme-primary {
+    --bs-btn-bg: #284952;
+    --bs-btn-border-color: #284952;
+    --bs-btn-color: #F0EDE5;
+}
